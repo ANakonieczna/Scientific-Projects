@@ -1,0 +1,11 @@
+1.D0            M1 1  masa
+0.3D0           a1 0.3  spin
+0.6D0           n1 0.6  przyspieszenie(boost)
+4.D0            d1 4  przesuniecie(displacement)
+1.D0            M2 1
+-0.4D0          a2 -0.4
+0.7D0           n2 0.7
+4.D0            d2 4
+10.D0           U  xMAX=yMAX=zMAX
+30              Nx  liczba pktow siatki w kierunkach x i y, parzysta ze wzgledu na 'blow up' w x=y=0
+-0.00001D0       dz  krok w kierunku z
